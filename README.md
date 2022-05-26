@@ -221,10 +221,6 @@ public function index()
 </div>
 ```
 
-Preview:
-
-![Preview of all user threads](http://static.gerardobaez.com/images/messenger-threads-preview.png)
-
 ### Using Models
 
 Messenger has 3 models:
