@@ -1,9 +1,9 @@
 <?php
 
-namespace Gerardojbaez\Messenger\Models;
+namespace Shahinur\Messenger\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Gerardojbaez\Messenger\Contracts\MessageThreadInterface;
+use Shahinur\Messenger\Contracts\MessageThreadInterface;
 
 class MessageThread extends Model implements MessageThreadInterface
 {

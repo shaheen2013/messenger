@@ -1,8 +1,8 @@
 <?php
 
-namespace Gerardojbaez\Messenger\tests;
+namespace Shahinur\Messenger\tests;
 
-use Gerardojbaez\Messenger\Tests\Models\User;
+use Shahinur\Messenger\Tests\Models\User;
 use Faker\Factory as FakerFactory;
 use Faker\Generator as FakerGenerator;
 use Illuminate\Database\Eloquent\Factory as EloquentFactory;
@@ -61,7 +61,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
     protected function getEnvironmentSetUp($app)
     {
         // Set models
-        $app['config']->set('auth.providers.users.model', '\Gerardojbaez\Messenger\Tests\Models\User');
+        $app['config']->set('auth.providers.users.model', '\Shahinur\Messenger\Tests\Models\User');
 
         // set up database configuration
         $app['config']->set('database.default', 'testbench');
@@ -81,7 +81,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
      */
     public function getPackageProviders($app)
     {
-        return ['Gerardojbaez\Messenger\MessengerServiceProvider'];
+        return ['Shahinur\Messenger\MessengerServiceProvider'];
     }
 
     /**
@@ -94,7 +94,7 @@ class TestCase extends \Orchestra\Testbench\TestCase
     protected function getPackageAliases($app)
     {
         return [
-            'Messenger' => 'Gerardojbaez\Messenger\Messenger',
+            'Messenger' => 'Shahinur\Messenger\Messenger',
         ];
     }
 }

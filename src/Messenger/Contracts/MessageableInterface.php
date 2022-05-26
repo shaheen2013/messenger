@@ -1,6 +1,6 @@
 <?php
 
-namespace Gerardojbaez\Messenger\Contracts;
+namespace Shahinur\Messenger\Contracts;
 
 interface MessageableInterface
 {

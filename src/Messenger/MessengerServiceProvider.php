@@ -1,11 +1,11 @@
 <?php
 
-namespace Gerardojbaez\Messenger;
+namespace Shahinur\Messenger;
 
 use Illuminate\Support\ServiceProvider;
-use Gerardojbaez\Messenger\Contracts\MessageInterface;
-use Gerardojbaez\Messenger\Contracts\MessageThreadInterface;
-use Gerardojbaez\Messenger\Contracts\MessageThreadParticipantInterface;
+use Shahinur\Messenger\Contracts\MessageInterface;
+use Shahinur\Messenger\Contracts\MessageThreadInterface;
+use Shahinur\Messenger\Contracts\MessageThreadParticipantInterface;
 
 class MessengerServiceProvider extends ServiceProvider
 {

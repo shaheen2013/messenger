@@ -1,12 +1,12 @@
 <?php
 
-namespace Gerardojbaez\Messenger;
+namespace Shahinur\Messenger;
 
 use DB;
 use App;
-use Gerardojbaez\Messenger\Exceptions\MessengerException;
-use Gerardojbaez\Messenger\Contracts\MessageableInterface;
-use Gerardojbaez\Messenger\Contracts\MessageThreadInterface;
+use Shahinur\Messenger\Exceptions\MessengerException;
+use Shahinur\Messenger\Contracts\MessageableInterface;
+use Shahinur\Messenger\Contracts\MessageThreadInterface;
 
 class Messenger
 {
@@ -79,7 +79,7 @@ class Messenger
     /**
      * Send message.
      *
-     * @return \Gerardojbaez\Messenger\Contracts\MessageInterface
+     * @return \Shahinur\Messenger\Contracts\MessageInterface
      */
     public function send()
     {
@@ -109,7 +109,7 @@ class Messenger
      * Try to find a thread, if no thread is
      * found, create one.
      *
-     * @return \Gerardojbaez\Messenger\Models\MessageThread
+     * @return \Shahinur\Messenger\Models\MessageThread
      */
     protected function getThread()
     {

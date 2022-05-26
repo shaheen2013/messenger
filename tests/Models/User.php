@@ -1,10 +1,10 @@
 <?php
 
-namespace Gerardojbaez\Messenger\tests\Models;
+namespace Shahinur\Messenger\tests\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Gerardojbaez\Messenger\Contracts\MessageableInterface;
-use Gerardojbaez\Messenger\Traits\Messageable;
+use Shahinur\Messenger\Contracts\MessageableInterface;
+use Shahinur\Messenger\Traits\Messageable;
 
 class User extends Authenticatable implements MessageableInterface
 {

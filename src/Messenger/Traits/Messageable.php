@@ -1,6 +1,6 @@
 <?php
 
-namespace Gerardojbaez\Messenger\Traits;
+namespace Shahinur\Messenger\Traits;
 
 trait Messageable
 {

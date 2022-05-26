@@ -1,8 +1,8 @@
 <?php
 
-use Gerardojbaez\Messenger\Tests\TestCase;
-use Gerardojbaez\Messenger\Tests\Models\User;
-use Gerardojbaez\Messenger\Models\MessageThread;
+use Shahinur\Messenger\Tests\TestCase;
+use Shahinur\Messenger\Tests\Models\User;
+use Shahinur\Messenger\Models\MessageThread;
 
 class MessengerTest extends TestCase
 {

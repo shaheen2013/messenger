@@ -1,9 +1,9 @@
 <?php
 
-namespace Gerardojbaez\Messenger\Models;
+namespace Shahinur\Messenger\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use Gerardojbaez\Messenger\Contracts\MessageInterface;
+use Shahinur\Messenger\Contracts\MessageInterface;
 
 class Message extends Model implements MessageInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Gerardojbaez\Messenger\Facades;
+namespace Shahinur\Messenger\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace Gerardojbaez\Messenger\Exceptions;
+namespace Shahinur\Messenger\Exceptions;
 
 class MessengerException extends \Exception
 {

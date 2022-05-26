@@ -1,10 +1,10 @@
 <?php
 
-namespace Gerardojbaez\Messenger\Models;
+namespace Shahinur\Messenger\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Gerardojbaez\Messenger\Contracts\MessageThreadParticipantInterface;
+use Shahinur\Messenger\Contracts\MessageThreadParticipantInterface;
 
 class MessageThreadParticipant extends Model implements MessageThreadParticipantInterface
 {
