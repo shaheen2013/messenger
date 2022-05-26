@@ -1,6 +1,6 @@
 {
     "name": "shahinur/messenger",
-    "description": "This is a messenger package for laravel 8.x. This package developers to add messaging funtionalities.",
+    "description": "This is a messenger package for laravel 8.x. This package enables developers to add messaging funtionalities to their Laravel applications.",
     "keywords": ["laravel", "messenger", "messages"],
     "license": "MIT",
     "authors": [
