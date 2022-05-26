@@ -46,16 +46,14 @@ Messenger::from($user)->to($thread)->message('I\'ll be there');
 
 ### Requirements
 
-- Laravel 5.x
-- PHP >=5.5
+- Laravel 8.x
+- PHP >=8.x
 
 ### Composer
 
 	$ composer require shahinur/messenger
 
 ### Service Provider and Facade
-
-> If you are using laravel 5.5 and later, you can skip the following two steps since this package supports package auto-discovery feature.
 
 Add the package to your application service providers in `config/app.php` file.
 
@@ -82,7 +80,7 @@ Add the Facade to your aliases array:
 
 Publish package config file and migrations with the command:
 
-	$ php artisan vendor:publish --provider="Gerardojbaez\Messenger\MessengerServiceProvider"
+	$ php artisan vendor:publish --provider="Shahinur\Messenger\MessengerServiceProvider"
 
 Then run migrations:
 
