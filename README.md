@@ -1,10 +1,6 @@
-[![Build Status](https://img.shields.io/travis/gerardojbaez/messenger.svg?style=flat-square)](https://travis-ci.org/gerardojbaez/messenger)
-[![Latest Version](https://img.shields.io/github/release/gerardojbaez/messenger.svg?style=flat-square)](https://github.com/gerardojbaez/messenger/releases)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-
 # Messenger
 
-Chat/Message system for Laravel 5.x.
+Chat/Message system for Laravel 8.x.
 
 With Messenger:
 
@@ -55,7 +51,7 @@ Messenger::from($user)->to($thread)->message('I\'ll be there');
 
 ### Composer
 
-	$ composer require gerardojbaez/messenger
+	$ composer require shahinur/messenger
 
 ### Service Provider and Facade
 
@@ -68,7 +64,7 @@ Add the package to your application service providers in `config/app.php` file.
 	/**
 	 * Third Party Service Providers...
 	 */
-	Gerardojbaez\Messenger\MessengerServiceProvider::class,
+	Shahinur\Messenger\MessengerServiceProvider::class,
 ]
 ```
 
@@ -78,7 +74,7 @@ Add the Facade to your aliases array:
 
 	[...]
 
-	'Messenger' => Gerardojbaez\Messenger\Facades\Messenger::class,
+	'Messenger' => Shahinur\Messenger\Facades\Messenger::class,
 ]
 ```
 
@@ -94,7 +90,7 @@ Then run migrations:
 
 ### Traits and Contracts
 
-Add `Gerardojbaez/Messenger/Traits/Messageable` trait and `Gerardojbaez/Messenger/Contracts/MessageableInterface` contract to your `Users` model.
+Add `Shahinur/Messenger/Traits/Messageable` trait and `Shahinur/Messenger/Contracts/MessageableInterface` contract to your `Users` model.
 
 See the following example:
 
@@ -104,8 +100,8 @@ See the following example:
 namespace App\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
-use Gerardojbaez\Messenger\Contracts\MessageableInterface;
-use Gerardojbaez\Messenger\Traits\Messageable;
+use Shahinur\Messenger\Contracts\MessageableInterface;
+use Shahinur\Messenger\Traits\Messageable;
 
 class User extends Authenticatable implements MessageableInterface
 {
@@ -236,11 +232,11 @@ Preview:
 Messenger has 3 models:
 
 ```php
-Gerardojbaez\Messenger\Models\Message;
-Gerardojbaez\Messenger\Models\MessageThread;
-Gerardojbaez\Messenger\Models\MessageThreadParticipant;
+Shahinur\Messenger\Models\Message;
+Shahinur\Messenger\Models\MessageThread;
+Shahinur\Messenger\Models\MessageThreadParticipant;
 ```
-You can use these as normal. For more details take a look to each model and the `Gerardojbaez\Messenger\Traits\Messageable` trait.
+You can use these as normal. For more details take a look to each model and the `Shahinur\Messenger\Traits\Messageable` trait.
 
 ## Config File
 
