@@ -47,7 +47,7 @@ Messenger::from($user)->to($thread)->message('I\'ll be there');
 ### Requirements
 
 - Laravel 8.x
-- PHP >=8.x
+- PHP >=7.4.x
 
 ### Composer
 
