@@ -1,4 +1,6 @@
 # Messenger
+This package was initially build by  https://github.com/gerardojbaez/messenger
+And then the dependencies were updated
 
 Chat/Message system for Laravel 8.x.
 
